@@ -10,6 +10,24 @@ function App() {
         <p>Email: Jenny@gmail.com</p>
         <p>Age: 25</p>
       </div>
+      <img src="https://via.placeholder.com/150" alt='profile'></img>
+      <div className="user-details">
+        <p>Name: Jenny Han</p>
+        <p>Email: Jenny@gmail.com</p>
+        <p>Age: 25</p>
+      </div>
+      <img src="https://via.placeholder.com/150" alt='profile'></img>
+      <div className="user-details">
+        <p>Name: Jenny Han</p>
+        <p>Email: Jenny@gmail.com</p>
+        <p>Age: 25</p>
+      </div>
+      <img src="https://via.placeholder.com/150" alt='profile'></img>
+      <div className="user-details">
+        <p>Name: Jenny Han</p>
+        <p>Email: Jenny@gmail.com</p>
+        <p>Age: 25</p>
+      </div>
     </div>
   );
 }
