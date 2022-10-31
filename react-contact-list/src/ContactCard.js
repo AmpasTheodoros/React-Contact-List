@@ -12,3 +12,5 @@ export const ContactCard = () => {
         </div>
     )
 }
+
+export default ContactCard;
