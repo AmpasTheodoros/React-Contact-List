@@ -5,6 +5,11 @@ import ContactCard from './ContactCard';
 
 function App() {
   return (
+    <div className="">
+    <ContactCard />
+    <ContactCard />
+    <ContactCard />
+    </div>
   );
 }
 
