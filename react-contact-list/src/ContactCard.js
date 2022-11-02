@@ -1,7 +1,6 @@
 import React,{ useState } from 'react';
 
 export const ContactCard = (props) => {
-    console.log(props)
     const [showAge, setShowAge] = useState(false);
     return (
         <div className="contact-card">
