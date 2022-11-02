@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import ContactCard from './ContactCard';
 
@@ -24,22 +24,26 @@ function App() {
   //   },
   // ];
 
-  const [contacts, setContacts] = useState([]);
+  const [results, setResults] = useState([]);
 
-  fetch('https://randomuser.me/api/?results=5')
-  .then(response => response.json())
-  .then(data =>console.log(data));
+  useEffect(() => {
+    fetch('https://randomuser.me/api/?results=5')
+    .then(response => response.json())
+    .then(data => {
+      setResults(data.results)
+    });
+  }, [])
 
   return (
     <div>
-      {contacts.map((contact, index)=>{
+      {results.map((results, index)=>{
         return (
           <ContactCard
             key={index}
-            avatarUrl={contact.avatarUrl }     
-            name={contact.name} 
-            email={contact.email}
-            age={contact.age}
+            avatarUrl={results.picture.large }     
+            name={results.name.first} 
+            email={results.email}
+            age={results.dob.age}
           />
         )
       })}
