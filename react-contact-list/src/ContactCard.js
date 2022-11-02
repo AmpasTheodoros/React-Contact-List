@@ -2,16 +2,17 @@ import React,{ useState } from 'react';
 
 
 
-export const ContactCard = () => {
+export const ContactCard = (props) => {
+    console.log(props)
     const [showAge, setShowAge] = useState(false);
     return (
         <div className="contact-card">
-            <img src="https://via.placeholder.com/150" alt='profile'></img>
+            <img src={props.avatarUrl} alt='profile'></img>
             <div className="user-details">
-                <p>Name: Jenny Han</p>
-                <p>Email: Jenny@gmail.com</p>
+                <p>Name: {props.name}</p>
+                <p>Email: {props.email}</p>
                 <button onClick={() => setShowAge(!showAge)}>Show Age</button>
-                {showAge && <p>Age: 25</p>}
+                {showAge && <p>Age: {props.age}</p>}
             </div>
         </div>
     )
