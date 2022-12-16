@@ -1,39 +1,30 @@
-# React-Contact-List
+# React Contact List
 
-This is a simple contact list application built with React. It allows users to add, view, and delete contacts from a list.
+This is a simple contact list application built with React. It allows you to add, edit, and delete contacts, as well as search for contacts by name or email.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+To get started with the project, clone the repository and install the dependencies: `git clone https://github.com/AmpasTheodoros/React-Contact-List.git
+cd React-Contact-List
+npm install`
+Then, start the development server: `npm start`
 
-### Prerequisites
+This will launch the application in your default browser.
 
-You will need to have the following software installed on your system:
+## Features
 
-- Node.js - The JavaScript runtime
-- npm - The package manager for Node.js
+- Add new contacts with name, email, and phone number
+- Edit existing contacts
+- Delete contacts
+- Search for contacts by name or email
+- Responsive design for mobile devices
 
-### Installing
+## Future Plans
 
-To install the application, follow these steps:
+- Implement pagination for large contact lists
+- Add the ability to import and export contacts as a CSV file
+- Implement authentication for storing contacts in a database
 
-1. Clone the repository to your local machine
-2. Open a terminal and navigate to the project directory
-3. Run the following command to install the required dependencies: `npm install`
-4. Run the following command to start the development server: `npm start`
+## Credits
 
-The application will now be running at http://localhost:3000/.
-
-## Built With
-
-- React - The web framework used
-- Redux - The state management library used
-- Material-UI - The UI library used
-
-## Authors
-
-- **Ampas Theodoros** - *Initial work* - [AmpasTheodoros](https://github.com/AmpasTheodoros)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+React Contact List was developed by [Ampas Theodoros](https://github.com/AmpasTheodoros).
