@@ -4,9 +4,10 @@ This is a simple contact list application built with React. It allows you to add
 
 ## Getting Started
 
-To get started with the project, clone the repository and install the dependencies: `git clone https://github.com/AmpasTheodoros/React-Contact-List.git
-cd React-Contact-List
-npm install`
+To get started with the project, clone the repository and install the dependencies: 
+`git clone https://github.com/AmpasTheodoros/React-Contact-List.git`
+`cd React-Contact-List`
+`npm install`
 Then, start the development server: `npm start`
 
 This will launch the application in your default browser.
